@@ -1,13 +1,14 @@
 body
 {
     margin: 0px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .main
 {
     display: flex;
     flex-direction: column;
+    gap: 60px;
   
 }
 
@@ -54,6 +55,7 @@ img
 {
     width: 500px;
     height: auto;
+    border-radius: 10px;
 }
 
 .main-text
@@ -94,4 +96,98 @@ img
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.rounded-square
+{
+    width: 150px;
+    height: 150px;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+.information-section
+{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+}
+
+.information-title
+{
+    font-weight: bolder;
+    font-size: 38px;
+    color: #1f2937;
+}
+
+.box
+{
+    font-size: 18px;
+    color: grey;
+    width: 150px;
+    text-align: center;
+}
+
+.boxes-container
+{
+    display: flex;
+    gap: 60px;
+}
+
+.quote-section
+{
+    background-color: #e5e7eb;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote
+{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    padding: 120px 300px 0 300px;
+}
+
+.author
+{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.call-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner 
+{
+    display: flex;
+    border-radius: 10px;
+    background-color: #3882f6;
+    
+}
+
+.call-button
+{
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-family: 'Roboto', sans-serif;
+    color: #f9faf8;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border-color: white;
 }
