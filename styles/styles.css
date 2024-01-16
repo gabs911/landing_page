@@ -172,16 +172,24 @@ img
     justify-content: center;
 }
 
-.banner 
+.call-banner
 {
     display: flex;
+    align-items: center;
+}
+
+.banner-inside
+{
     border-radius: 10px;
     background-color: #3882f6;
-    
+    display: flex;
+    gap: 100px;
+    padding: 50px 130px;
 }
 
 .call-button
 {
+    
     border-radius: 10px;
     background-color: #3882f6;
     font-family: 'Roboto', sans-serif;
@@ -190,4 +198,30 @@ img
     height: 40px;
     font-size: 20px;
     border-color: white;
+}
+
+.call-title
+{
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+
+.call-text
+{
+    color: #e5e7eb;
+}
+
+.footer-text
+{
+    color: #e5e7eb;
+    padding: 40px 0px;
+}
+
+.footer
+{
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
